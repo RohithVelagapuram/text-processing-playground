@@ -1,25 +1,41 @@
-# text-processing-playground
-Small experiments and scripts focused on text processing and analysis basics
-
 # Text Processing Playground
 
-This repository contains small, focused exercises exploring basic text processing concepts.
-The goal is to understand how text can be analyzed, cleaned, and transformed using simple logic.
-
-## What this repository covers
-- Basic text cleaning and normalization
-- Keyword extraction (simple approaches)
-- Sentence-level transformations
-- Readability and clarity improvements
+A small collection of lightweight Python utilities for analyzing and working with plain text files.
 
 ## Purpose
-This is a learning-focused repository created to strengthen foundational skills in text handling,
-analysis, and structured thinking.
 
-## Tools & Languages
-- Python (basic)
-- Markdown
-- GitHub for version control
+Built as a learning project to practice file handling, basic data analysis, and writing clean, functional Python scripts.
 
-## Notes
-Each file represents a small experiment rather than a production-ready solution.
+## Current Tools
+
+### text_stats.py
+
+Analyzes a text file and provides:
+
+* Total word count
+* Sentence count
+* Most frequent words
+
+## Example Usage
+
+Run the script and provide a file path:
+
+```
+python text_stats.py
+```
+
+Then enter:
+
+```
+sample.txt
+```
+
+## Tech Used
+
+* Python (standard library only)
+* File I/O
+* Basic data structures (`collections.Counter`)
+
+## Scope
+
+This repository focuses on small, practical utilities rather than large frameworks.
