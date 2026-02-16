@@ -16,6 +16,11 @@ Analyzes a text file and provides:
 * Sentence count
 * Most frequent words
 
+### keyword_filter.py
+
+Searches a text file and displays only the lines containing a specified keyword.
+Useful for quickly locating relevant information in large text files.
+
 ## Example Usage
 
 Run the script and provide a file path:
