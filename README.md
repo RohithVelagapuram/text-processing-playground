@@ -26,13 +26,13 @@ Useful for quickly locating relevant information in large text files.
 Run the script and provide a file path:
 
 ```
-python text_stats.py
+python text_stats.py sample.txt
 ```
 
 Then enter:
 
 ```
-sample.txt
+python keyword_filter.py sample.txt software
 ```
 
 ## Tech Used
