@@ -35,6 +35,13 @@ Then enter:
 python keyword_filter.py sample.txt software
 ```
 
+### Keyword Analyzer
+
+A simple JavaScript function that extracts the most frequent words from a given text while filtering out common stop words.
+
+Example Output:
+[ ['test', 3], ['simple', 1] ]
+
 ## Tech Used
 
 * Python (standard library only)
@@ -44,3 +51,4 @@ python keyword_filter.py sample.txt software
 ## Scope
 
 This repository focuses on small, practical utilities rather than large frameworks.
+
